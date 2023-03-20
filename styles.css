@@ -1,0 +1,337 @@
+@importar  URL ( 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,500;1,100;1,300;1,700&family=Yellowtail&display=swap' ); *
+{
+familia de fuentes :  "titillium Web" ;
+margen :  0 ;
+relleno :  0 ;
+}
+html {
+comportamiento de desplazamiento : suave;
+}
+
+. inicio {
+    fondo :  gradiente lineal ( rgba ( 26 ,  12 ,  70 ,  0.596 ) ,  rgba ( 125 ,  109 ,  172 ,  0.3 ));
+    tamaño de fondo : cubierta;
+    posición de fondo : centro centro;
+    color : blanco;
+}
+. inicio . contenido-sección {
+    ancho máximo :  1000 px ;
+    margen : automático;
+    alineación de texto : centro;
+    almohadilla :  0  10 píxeles ;
+}
+. inicio . encabezado de sección de contenido  {
+    relleno :  30 px ;
+}
+. inicio . contenido-seccion  header  nav {
+    posición : fijo;
+    margen izquierdo :  60 px ;
+    color de fondo : rgb ( 165 ,  128 ,  227 );
+    relleno :  15 px ;
+    borde-radio :  10 px ;
+    alineación de texto : izquierda;
+    índice z :  99 ;
+    pantalla : ninguno;
+}
+. inicio . contenido-seccion  header  nav  a {
+    pantalla : bloque;
+    color : azul alice;
+    decoración de texto : ninguno;
+    margen inferior :  10 px ;
+    fuente-peso : negrita;
+}
+/**iniciar*/
+. inicio . encabezado de sección de contenido  . logotipo {
+    fuente-peso : negrita;
+    tamaño de fuente :  2,5 rem ;
+    familia de fuentes :  "Yellowtail" ;
+    sombra de texto :  0  0  35 px#fff;
+
+}
+. inicio . encabezado de sección de contenido  . logotipo _ color {
+    color :  # 17112e ;
+    familia de fuentes :  "Yellowtail" ;
+}
+. inicio . encabezado de sección de contenido  . barra de navegación {
+    posición : fijo;
+    color de fondo :  rgb ( 33 ,  10 ,  96 );
+    tamaño de fuente :  20 px ;
+    ancho :  50 píxeles ;
+    altura :  50 píxeles ;
+    borde-radio :  50 % ;
+    altura de línea :  50 px ;
+    cursor : puntero;
+    transición :  0,3 s ;
+}
+. inicio . encabezado de sección de contenido  . barra de navegación : flotar {
+    sombra de cuadro :  0  0  25 px  #fff ;
+}
+. inicio . contenido-sección . información {
+   relleno inferior :  130 px ;
+}
+. inicio . contenido-sección . información  h1 {
+    tamaño de fuente :  3 rem ;
+    espaciado entre letras :  5 px ;
+}
+. inicio . contenido-sección . información  h2 {
+    peso de fuente : normal;
+    tamaño de fuente :  20 px ;
+    margen superior :  -10 px ;
+    espaciado entre letras :  2 px ;
+}
+. inicio . contenido-sección . información _ redes {
+    margen :  20 px  0 ;
+}
+. inicio . contenido-sección . información _ redes  a {
+    pantalla : bloque en línea;
+    decoración de texto : ninguno;
+    color de fondo :  # ffffff78 ;
+    color :  rgb ( 103 ,  103 ,  222 );
+    borde :  hsl sólido de 1 px ( 244 , 82 % , 56 % );  
+    borde-radio :  50 % ;
+    ancho :  40 píxeles ;
+    altura :  40 píxeles ;
+    altura de línea :  40 px ;
+    margen :  0  5 px ;
+    transición : 0,3 s ;
+}
+. inicio . contenido-sección . información _ redes  a : flotar {
+    color :  # 080808 ;
+    color de fondo :  rgb ( 65 ,  101 ,  232 );
+    sombra de caja :  0  0  20 px  #fff ;
+}
+. inicio . contenido-sección . foto {
+    posición : relativa;
+}
+
+. inicio . contenido-sección . foto  img {
+ancho máximo :  200 px ;
+borde-radio :  50 % ;
+borde :  3 px sólido # 340b47 ;
+posición : absoluta;
+izquierda :  50 % ;
+arriba :  -100 px ;
+transformar :  traducirX ( -50 % );
+}
+. título-sección {
+    familia de fuentes : "Yellowtail" ;
+    tamaño de fuente :  1,5 rem ;
+}
+/**Sobre mi*/
+. sobremi {
+    color de fondo : # e7dff5 ;
+    relleno :  140 px  0  100 px  0 ;
+    alineación de texto : centro;
+}
+. sobremio _ contenido-sección {
+ancho máximo :  1000 px ;
+margen : automático;
+relleno :  0  10 px ;
+}
+. sobremio _ contenido-sección  h3 {
+    transformación de texto : mayúsculas;
+    tamaño de fuente :  30 px ;
+}
+. sobremio _ contenido-sección . especial {
+    color :  # 2d0daf ;
+    fuente-peso : negrita;
+    margen superior :  15 px ;
+}
+. sobremio _ contenido-sección  p {
+    ancho máximo :  700 px ;
+    margen : automático;
+    color :  # 131217 ;
+}
+. sobremio _ contenido-sección . fila {
+    pantalla : flexible;
+    margen superior :  30 px ;
+    justificar-contenido : espacio-entre;
+}
+. sobremio _ contenido-sección . fila _ columna {
+ ancho :  30 % ;   
+}
+. sobremio _ contenido-sección . fila _ columna  i {
+    color :  # 340b47 ;
+    pantalla : bloque en línea;
+    ancho :  40 píxeles ;
+    altura :  40 píxeles ;
+    borde :  2 px sólido # 340b47 ;
+    altura de línea :  40 px ;
+    borde-radio :  50 % ;
+}
+. sobremio _ contenido-sección . fila _ lapso de columna  {
+    pantalla : bloque;
+    fuente-peso : negrita;
+    margen :  8 px ;
+
+}
+/** habilidades*/
+. habilidades {
+relleno :  80 px  0  100 px  0 ;
+alineación de texto : centro;
+fondo :  gradiente lineal ( rgba ( 26 ,  12 ,  70 ,  0.769 ) ,  rgba ( 125 ,  109 ,  172 ,  0.687 ));
+tamaño de fondo : cubierta;
+archivo adjunto de fondo : fijo;
+posición de fondo : centro centro;
+color :  #fff ; _
+}
+. habilidades _ contenido-sección {
+    ancho máximo :  1000 px ;
+    margen : automático;
+    relleno :  0  10 px ;
+}
+. habilidades _ contenido-sección  h3 {
+    transformación de texto : mayúsculas;
+    tamaño de fuente :  30 px ;
+}
+. habilidades _ contenido-sección . fila {
+    pantalla : flexible;
+    justificar-contenido : espacio-entre;
+    margen superior :  30 px ;
+}
+. habilidades _ contenido-sección . fila _ columna {
+    ancho :  45 % ;
+    alineación de texto : izquierda;
+}
+. habilidades _ contenido-sección . fila _ columna _ cont-barra {
+    pantalla : flexible;
+    alinear elementos : centro;
+}
+. habilidades _ contenido-sección . barra {
+    pantalla : flexible;
+    borde :  1 px sólido # 2d0daf ;
+    relleno :  2 px ;
+    borde-radio :  3 px ;
+    margen derecho :  10 px ;
+}
+. habilidades _ contenido-sección . barra _ mi {
+color de fondo :  # 2c3636 ;
+ancho :  20 píxeles ;
+altura :  30 píxeles ;
+margen derecho :  2 px ;
+}
+. resumen {
+    color de fondo :  # e7dff5 ;
+    relleno :  140 px  0  100 px  0 ;
+    alineación de texto : centro;
+}
+. resumen . contenido-sección {
+    ancho máximo :  1000 px ;
+    margen : automático;
+    relleno :  0  10 px
+}
+. resumen . contenido-sección  h3 {
+    transformación de texto : mayúsculas;
+    tamaño de fuente :  30 px ;
+}
+. resumen . contenido-sección . información {
+    alineación de texto : izquierda;
+    pantalla : flexible;
+    justificar-contenido : espacio-entre;
+    margen superior :  30 px ;
+}
+. resumen . contenido-sección . información _ columna {
+    ancho :  45 % ;
+}
+. resumen . contenido-sección . información _ columna _ título {
+    pantalla : bloque en línea;
+    color :  # 340b47 ;
+    fuente-peso : negrita;
+    borde :  2 px sólido # 17112e ;
+    relleno :  10 px ;
+}
+. resumen . contenido-sección . información _ tabla de columnas  {
+margen superior :  30 px ;
+borde-colapso : colapso;
+}
+. resumen . contenido-sección . información _ mesa col  . datos {
+  ancho :  40 % ;
+  borde inferior :  1 px sólido # 8334a8 ;  
+}
+. resumen . contenido-sección . información _ col  tabla  h4 {
+    margen superior :  10 px ;
+}
+. resumen . contenido-sección . información _ col  tabla  h3 {
+    tamaño de fuente :  40 px ;
+    margen inferior :  5 px ;
+}
+. resumen . contenido-sección . información _ col  tabla  p {
+    tamaño de fuente :  14 px ;
+}
+. resumen . contenido-sección . información _ mesa col  . medio {
+pantalla : bloque;
+color : rgb ( 110 ,  15 ,  158 );
+margen superior :  10 px ;
+fuente-peso : negrita;
+}
+. resumen . contenido-sección . información _ mesa col  . descripción {
+    borde izquierdo :  1 px sólido # 8334a8 ;
+relleno-izquierda :  20 px ;
+}
+/** contacto*/
+. contacto {
+    color de fondo :  # 2b0e39 ;
+    relleno :  140 px  0  100 px  0 ;
+    color :  # e7dff5 ;
+    alineación de texto : centro;
+}
+. contacto _ contenido-sección {
+    ancho máximo :  1000 px ;
+    margen : automático;
+    relleno :  0  10 px ;
+}
+. contacto _ contenido-sección  h3 {
+    transformación de texto : mayúsculas;
+    tamaño de fuente :  30 px ;
+}
+. contacto _ contenido-sección . fila {
+    pantalla : flexible;
+    justificar-contenido : espacio-alrededor;   
+}
+. contacto _ contenido-sección . fila _ columna {
+ margen superior :  50 px ;   
+}
+. contacto _ contenido-sección . fila _ columna  h2 {
+    color :  # 8334a8 ;
+}
+/*sensible*/
+
+Pantalla @media y ( ancho máximo : 800 px ){
+    . habilidades _ contenido-sección . fila {
+        pantalla : bloque;
+    }
+    . habilidades _ contenido-sección . fila _ columna {
+        ancho :  100 % ;
+        alineación de texto : centro;
+    }
+    . habilidades _ contenido-sección . fila _ columna _ cont-barra {
+        justificar-contenido : centro;
+    }
+    . sobremio _ contenido-sección . fila {
+        pantalla : bloque;
+    }
+    . sobremio _ contenido-sección . fila _ columna {
+        ancho :  80 % ;
+        margen : automático;
+        margen superior :  20 px ;
+
+    }
+    . resumen . contenido-sección . información {
+        pantalla : bloque;
+    }
+    . resumen . contenido-sección . información _ columna {
+        ancho :  90 % ;
+        margen : automático;
+    }
+    . resumen . contenido-sección . información _ columna _ título {
+        pantalla : bloque;
+        alineación de texto : centro;
+    }
+    . resumen . contenido-sección . información _ tabla de columnas  {
+        margen superior :  10 px ;
+        margen inferior :  30 px ;
+    }
+    . contacto _ contenido-sección . fila {
+        pantalla : bloque;
+    }
+}
